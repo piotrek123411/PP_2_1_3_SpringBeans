@@ -11,10 +11,10 @@ public class Dog extends Animal {
         says = "woof";
     }
 
-
     public Dog(String says) {
         this.says = says;
     }
+
     @Override
     void say () {
         System.out.println(says);
@@ -24,5 +24,4 @@ public class Dog extends Animal {
     public String toString() {
         return "Im a Dog";
     }
-
 }

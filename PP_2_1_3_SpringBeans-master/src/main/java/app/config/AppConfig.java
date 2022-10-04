@@ -10,22 +10,4 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan(basePackages = "app")
-public class AppConfig {
-
-//    @Bean(name = "dog")
-//    public Animal getDog() {
-//        Animal animal = new Dog("gav-gav");
-//        return animal;
-//    }
-//
-//    @Bean(name = "cat")
-//    public Animal getCat() {
-//        Animal animal = new Cat("myau-myau");
-//        return animal;
-//    }
-//    @Bean(name = "time")
-//    public Timer getTimer(){
-//        Timer timer=new Timer();
-//        return timer;
-//    }
-}
+public class AppConfig {}
